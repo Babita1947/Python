@@ -1,0 +1,1 @@
+s2 = input("Enter numbers separated by comma :")
