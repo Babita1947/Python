@@ -38,5 +38,8 @@ l2 = [50,20,45,100,90,90,40,70,60,50,20,45,100,90,90,40,70,60]
 # l4=sorted(l2,reverse=True)
 # print(l4)
 
-l2.sort()
+# l2.sort()
+# print(l2)
+
+l2.reverse()
 print(l2)
