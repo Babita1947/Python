@@ -73,5 +73,5 @@
 # print(type('-'.join(l1)))
 
 print("Hello {}, {} is your friend".format("Babita","Anisha"))
-print("{} ! Are you studied Properly {}".format("Babita","Yes! but not satisfied"))
+print("{} ! Are you studied Properly ?  {}".format("Babita","Yes! but not satisfied"))
 print("{} ! Are you ok now ? {}".format("Babita","Yes"))
