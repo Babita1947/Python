@@ -37,7 +37,7 @@
 # print("{},{},{}".format("One",25,3.5))
 # print("{2},{0},{1}".format(10,20,30))
 
-############# split() and join() ###############
+############# split() ###############
 
 # s1 = 'mysirg education services private limited'
 # print(s1.split(' '))
@@ -66,8 +66,12 @@
 # print(type(strobject.join(l1)))
 
 
-l1 = ["Mysirg", "education", "services", "private","limited"]
-print(l1)
-print(type(l1))
-print('-'.join(l1))
-print(type('-'.join(l1)))
+# l1 = ["Mysirg", "education", "services", "private","limited"]
+# print(l1)
+# print(type(l1))
+# print('-'.join(l1))
+# print(type('-'.join(l1)))
+
+print("Hello {}, {} is your friend".format("Babita","Anisha"))
+print("{} ! Are you studied Properly {}".format("Babita","Yes! but not satisfied"))
+print("{} ! Are you ok now ? {}".format("Babita","Yes"))
