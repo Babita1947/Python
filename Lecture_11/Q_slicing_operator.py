@@ -10,5 +10,4 @@
 
 
 
-s = "mysirg education services private limited"
-print(' '.join(s.split(" ")[::-1]))
+
