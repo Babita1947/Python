@@ -11,3 +11,4 @@ for e in (input("Enter a string : ")):
     if e in "aeiou":
         s2.add(e)
 print(s2)
+
