@@ -92,10 +92,13 @@
 # print(t1[::-1])
 
 ########### user input ###############
-t1 =  tuple([int(e) for e in input("Enter lists : ").split(',')])
+# t1 =  tuple([int(e) for e in input("Enter lists : ").split(',')])
 
 
+# print(t1)
+
+t1 = tuple([int(e) for e in input("Enter elements of tuple : ").split(',')])
 print(t1)
-
+print(len(t1))
 
 
