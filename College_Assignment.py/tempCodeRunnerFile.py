@@ -1,0 +1,2 @@
+del thislist
+# print(thislist)
