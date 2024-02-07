@@ -1,2 +1,2 @@
-del thislist
+thislist = []
 # print(thislist)

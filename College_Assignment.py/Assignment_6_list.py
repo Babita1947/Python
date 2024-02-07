@@ -62,24 +62,24 @@ thislist.remove("banana")
 print(thislist,end=" ")
 print("\n")
 # l. Remove the second item
-del thislist[1]
-print(thislist,end=" ")
-print("\n")
+# del thislist[1]
+# print(thislist,end=" ")
+# print("\n")
 
 # m. Remove the last item
-thislist.pop()
-print(thislist)
-print("\n")
+# thislist.pop()
+# print(thislist)
+# print("\n")
 
 # n. Remove the first item using del() method
-del thislist[0]
-print(thislist,end=" ")
-print("\n")
+# del thislist[0]
+# print(thislist,end=" ")
+# print("\n")
 
 # o. Delete the entire list
 # del thislist
 # print(thislist)
 
 # p. Clear the list content
-thislist = []
-print(thislist)
+# thislist = []
+# print(thislist)
