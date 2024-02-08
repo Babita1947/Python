@@ -70,12 +70,96 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 # print(thislist)
 # thislist.append("guave")
 # thislist.insert(1,"itli")
-print(thislist)
-thislist.remove("banana")
-print(thislist)
-thislist.remove(thislist[-1])
-print(thislist)
-del(thislist[0])
-print(thislist)
-thislist.clear()
-print(thislist)
+# print(thislist)
+# thislist.remove("banana")
+# print(thislist)
+# thislist.remove(thislist[-1])
+# print(thislist)
+# del(thislist[0])
+# print(thislist)
+# thislist.clear()
+# print(thislist)
+
+# t1 = (11,2,30,50,50)
+
+# print(t1[0::1])
+# print(t1[::-1])
+
+
+
+
+# for i in t1:
+#     print(i,end=" ")
+# print("\n")
+# print(t1[-1])
+
+# print(sorted(t1,reverse=True))
+
+# print(t1.index(50))
+# print(t1.count(50))
+
+
+# thistuple = ("apple", "banana", "cherry") 
+# print(thistuple[::1])
+# print(len(thistuple))
+# print(thistuple[1])
+# print(thistuple[-1])
+# addtuple = ("orange", "kiwi", "melon", "mango")
+# thistuple = thistuple + addtuple
+# print(thistuple)
+# print(thistuple[2:5:1])
+# print(thistuple[:thistuple.index("kiwi")])
+# print(thistuple[thistuple.index("cherry")::])
+# print(thistuple[-4:-1:1])
+# print("apple" in thistuple,"'apple' is in the fruits tuple")
+
+# tuplelist = list(thistuple)
+# del tuplelist[0]
+# modifiedtuple  = tuple(tuplelist)
+# print(modifiedtuple)
+
+# for i in modifiedtuple:
+#     print(i,end=" ")
+# print("\n")
+# i = 0
+# while i<=len(modifiedtuple):
+#     print(thistuple[i],end=" ")
+#     i += 1
+# print("\n")
+# tuple2 = (1,2,3,2,3)
+# tuple3 = thistuple + tuple2
+# print(tuple3[::1])
+
+# print((tuple2)*2)
+# print(tuple3.count(2))
+# print(tuple3.index(2))
+
+# set1 = {20,10,50,20,30,50,20,10}
+# print(len(set1))
+# print(min(set1))
+
+# s1 = {8,1,5}
+# s2 = {1,5,8,10}
+# print(s1.issubset(s2))
+
+d1 = {19:"Babita",20:"Barsha"}
+d2 = dict(a=10,b=11)
+print(d1)
+print(d2)
+
+
+d3 = dict(a='Babita',b='Barsha')
+print(d3)  
+
+d3['b'] = "Anisha"
+print(d3)
+
+d3['c'] = "Pankaj"
+print(d3)
+
+# del d3['b']
+# print(d3)
+
+print(d3.items())
+print(d3.keys())
+print(d3.values())
